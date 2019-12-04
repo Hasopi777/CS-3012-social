@@ -1,0 +1,15 @@
+body {
+    
+    background-image: url("assets/backIMG.jpeg");
+    background-size: cover;
+
+}
+.jumbotron{
+    background-color: black  !important;
+    opacity: 0.5; 
+}
+.jumbotron:hover{
+    opacity:1;
+    transition: ease-in-out;
+    transition-duration: 300ms; 
+}
