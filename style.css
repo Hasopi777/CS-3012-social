@@ -13,9 +13,10 @@ body {
     transition: ease-in-out;
     transition-duration: 300ms; 
 }
-/* .main-profile{
+.main-profile{
     background-color: violet;
-} */
+    font-size: 18px;
+}
 .profile-name{
     color: white;
     background-color: violet;
