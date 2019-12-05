@@ -2,6 +2,7 @@ const inputValue = document.querySelector("#search");
 const searchButton = document.querySelector(".searchButton");
 const nameContainer = document.querySelector(".profile-name");
 const unContainer = document.querySelector(".profile-username");
+// const imageContainer = document.querySelector(".profile-image");
 
 const client_id = "565b0b7aa0c9c7eafb3c";
 const client_secret = "ead17169a57c3ce0bc6663c9280a22d61d22d37e";
@@ -18,6 +19,9 @@ const showData = () => {
         console.log(res);    
 
         nameContainer.innerHTML = `Name: <span class="main_profile-value">${res.data.name}</span>`;
+        unContainer.innerHTML = `Username: <span class="main_profile-value">${res.data.login}</span>`;
+        // imageContainer.innerHTML = `<img class="main_profile-value" src=${res.data.avatar_url}/>`;
+        
     })
 };
 

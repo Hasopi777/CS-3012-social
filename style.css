@@ -6,13 +6,22 @@ body {
 }
 .jumbotron{
     background-color: black  !important;
-    opacity: 0.5; 
+    opacity: 0.8; 
 }
 .jumbotron:hover{
     opacity:1;
     transition: ease-in-out;
     transition-duration: 300ms; 
 }
+/* .main-profile{
+    background-color: violet;
+} */
 .profile-name{
     color: white;
+    background-color: violet;
+    
+}
+.profile-username{
+    color: white;
+    background-color: violet;
 }
