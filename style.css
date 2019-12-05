@@ -13,3 +13,6 @@ body {
     transition: ease-in-out;
     transition-duration: 300ms; 
 }
+.profile-name{
+    color: white;
+}
